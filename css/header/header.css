@@ -19,6 +19,7 @@
     display: inline-block;
     padding: 16px 0px;
     position: relative;
+    font-size: 18px;
 }
 
 .header-menu a::after{
