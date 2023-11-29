@@ -1,0 +1,50 @@
+.acoes{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.acoes-lista{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.tipos-acoes{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.acoes-conteudo h1{
+    text-align: center;
+    margin-bottom: 32px;
+    font-family: 'Poppins', Courier, monospace;
+    font-size: 44px;
+    font-weight: 500;
+}
+
+.acoes-conteudo p{
+    text-align: justify;
+    max-width: 70ch;
+    
+}
+
+.tipos-acoes h2{
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+}
+
+.tipos-acoes p{
+    max-width: 40ch;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+
+.acao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin-top: 40px;
+}
