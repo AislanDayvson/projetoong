@@ -40,3 +40,42 @@
     font-weight: 400;
     color: #000000;
 }
+
+@media (max-width: 800px){
+
+    .introducao-conteudo{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .introducao-conteudo h1{
+        font-size: 32px;
+    }
+
+    .introducao-conteudo p{
+        font-size: 16px;
+    }
+
+    #representantes{
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 600px){
+
+    .introducao{
+        grid-template-columns: 1fr;
+    }
+
+    .introducao img{
+        height: 200px;
+    }
+
+    .introducao-conteudo h1{
+        font-size: 24px;
+    }
+
+    .introducao-conteudo p{
+        font-size: 14px;
+    }
+}
