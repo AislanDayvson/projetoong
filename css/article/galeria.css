@@ -1,0 +1,45 @@
+.galeria-bg{
+    background-color: #FCF591;
+}
+
+.galeria{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.galeria-conteudo h1{
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 44px;
+    margin-bottom: 32px;
+}
+
+.galeria-conteudo ul{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow-x: auto;
+    padding: 0px 20px 20px 20px;
+
+}
+
+.galeria-conteudo li{
+    min-width: 280px;
+    flex: 1;
+}
+
+@media (max-width: 800px){
+    .galeria-conteudo h1{
+        font-size: 32px;
+    }
+}
+
+@media (max-width: 600px){
+    .galeria-conteudo h1{
+        font-size: 24px;
+    }
+}
