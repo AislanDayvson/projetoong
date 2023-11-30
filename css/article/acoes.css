@@ -80,4 +80,8 @@
     .acoes-conteudo h1{
         font-size: 24px;
     }
+
+    .acoes-conteudo p{
+        font-size: 14px;
+    }
 }
