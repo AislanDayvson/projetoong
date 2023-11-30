@@ -1,0 +1,42 @@
+
+.voluntariar{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.voluntariar-conteudo h1{
+    text-align: center;
+    font-size: 44px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    margin-bottom: 32px;
+}
+
+.voluntariar-conteudo p{
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    color: #2e2e2e;
+    text-align: center;
+}
+
+@media (max-width: 800px){
+    .voluntariar-conteudo h1{
+        font-size: 32px;
+    }
+
+    .voluntariar-conteudo p{
+        font-size: 16px;
+    }
+}
+
+
+@media (max-width: 600px){
+    .voluntariar-conteudo h1{
+        font-size: 24px;
+    }
+
+    .voluntariar-conteudo p{
+        font-size: 14px;
+    }
+}
